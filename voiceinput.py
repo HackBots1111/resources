@@ -18,7 +18,15 @@ translator = Translator()
 translated = translator.translate(text, src = 'hi')
 print(translated.text)
 
-voice = gTTS(text, lang='hi', slow=False)
+'''voice = gTTS(text, lang='hi', slow=False)
 voice.save("speak.mp3")
 os.system("mpg321 speak.mp3")
+'''
 
+'''
+Solve query here
+return answer
+'''
+
+translated = translator.translate(answer, src = 'en', dest = 'hi')
+print(translated.text)
