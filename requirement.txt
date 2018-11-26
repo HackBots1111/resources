@@ -72,7 +72,7 @@ nbconvert==5.3.1
 nbformat==4.4.0
 netifaces==0.10.4
 nltk==3.3
-notebook==5.4.1
+notebook>5.7.1.
 numpy==1.14.5
 oauth==1.0.1
 oauthlib==2.0.6
